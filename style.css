@@ -10,11 +10,141 @@
 body{
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
-    line-height: 22px;
-}
-.logo-txt{
-    font-family: 'Festive', cursive;
+    line-height: 28px;
+    color: #fff;
 }
 .heading{
     font-family: 'Lobster Two', cursive;
 }
+img{
+    width: 100%;
+}
+.container{
+    width: 1500px;
+    margin: 0 auto;
+}
+.gradient-btn{
+
+}
+
+/*========== Hero Section ==========*/
+#hero-section {
+    background: linear-gradient(#000000c7, #0000008c), url(images/bg-img/hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 946px;
+}
+.menu-side{
+    overflow: hidden;
+}
+.menu-side .logo-area{
+    padding: 70px 0 70px;
+}
+.menu-side .logo-area .logo-txt {
+    font-family: Festive, cursive;
+    font-size: 80px;
+    color: white;
+    text-shadow: rgb(255 255 255 / 81%) 0px 0px 6px;
+    display: block;
+    text-align: center;
+}
+.menu-side .menu-area{
+    padding: 16px 630px 16px 630px;
+    margin: auto;
+    border-top: 1px solid rgba(161, 161, 161, 0.3);
+    border-bottom: 1px solid rgba(161, 161, 161, 0.3);
+    border-right: 0px;
+    border-left: 0px;
+}
+.menu-side .menu-area .menu-list{
+    list-style: none;
+    text-align: center;
+    overflow: hidden;
+}
+.menu-side .menu-area .menu-list li{
+    float: left;
+    line-height: 20px;
+    padding: 0 28px;
+    position: relative;
+}
+.menu-side .menu-area .menu-list li a{
+    text-decoration: none;
+    color: rgba(245, 245, 245, 0.568);
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+.menu-side .menu-area .menu-list li .actv{
+    color: white;
+}
+.menu-side .menu-area .menu-list li a span{
+    background: white;
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+}
+.span-1 {
+    position: absolute;
+    top: 8px;
+    left: 105px;
+}
+.span-2 {
+    position: absolute;
+    top: 8px;
+    left: 148px;
+}
+.span-3 {
+    position: absolute;
+    top: 8px;
+    left: 127px;
+}
+.span-4 {
+    position: absolute;
+    top: 8px;
+    left: 103px;
+}
+.hero-side{
+    overflow: hidden;
+}
+.hero-content{
+    float: left;
+    width: 50%;
+    padding-top: 158px;
+}
+.hero-content h1{
+    font-size: 55px;
+    line-height: 85px;
+    letter-spacing: 0.5rem;
+    padding-left: 30px;
+}
+.hero-content h1 span{
+    color: #ff873b;
+}
+.hero-content p{
+    padding: 30px 80px 30px 32px;
+    font-size: 16px;
+    letter-spacing: 0.1rem;
+}
+.hero-content button {
+    margin-left: 32px;
+}
+.gradient-btn {
+    padding: 19px 35px;
+    color: white;
+    background: linear-gradient(82deg, #ff1061, #ff6230);
+    border: none;
+    border-radius: 26px;
+    letter-spacing: 1px;
+}
+.hero-image{
+    float: right;
+    width: 50%;
+}
+.hero-image img {
+    padding: 40px;
+    width: 650px;
+}
+/*========== End ==========*/
