@@ -16,6 +16,12 @@ body{
 .heading{
     font-family: 'Lobster Two', cursive;
 }
+h2{
+    font-family: 'Lobster Two', cursive;
+    font-size: 50px;
+    letter-spacing: 0.2rem;
+    line-height: 50px;
+}
 img{
     width: 100%;
 }
@@ -23,8 +29,13 @@ img{
     width: 1500px;
     margin: 0 auto;
 }
-.gradient-btn{
-
+.gradient-btn {
+    padding: 19px 35px;
+    color: white;
+    background: linear-gradient(82deg, #ff1061, #ff6230);
+    border: none;
+    border-radius: 26px;
+    letter-spacing: 1px;
 }
 
 /*========== Hero Section ==========*/
@@ -50,7 +61,7 @@ img{
     text-align: center;
 }
 .menu-side .menu-area{
-    padding: 16px 630px 16px 630px;
+    padding: 16px 400px 16px 630px;
     margin: auto;
     border-top: 1px solid rgba(161, 161, 161, 0.3);
     border-bottom: 1px solid rgba(161, 161, 161, 0.3);
@@ -131,14 +142,6 @@ img{
 .hero-content button {
     margin-left: 32px;
 }
-.gradient-btn {
-    padding: 19px 35px;
-    color: white;
-    background: linear-gradient(82deg, #ff1061, #ff6230);
-    border: none;
-    border-radius: 26px;
-    letter-spacing: 1px;
-}
 .hero-image{
     float: right;
     width: 50%;
@@ -148,3 +151,130 @@ img{
     width: 650px;
 }
 /*========== End ==========*/
+
+/*========== About Section==========*/
+#about-section{
+    background: linear-gradient(rgb(0 0 0 / 80%), rgb(0 0 0 / 80%)),url(images/bg-img/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    background-attachment: fixed;
+}
+#about-section .container{
+    overflow: hidden;
+}
+.about-img{
+    float: left;
+    width: 50%;
+}
+.about-img img{
+    padding-top: 4px;
+    margin-left: 10px;
+    background: #00000012;
+    width: 400px;
+    border-radius: 10%;
+}
+.about-content{
+    float: right;
+    width: 50%;
+    margin: 120px 0px 0 0;
+}
+.about-content h2{
+    color: #ffb603;
+}
+.about-content p{
+    padding: 40px 0 70px;
+    margin-right: 90px;
+    text-align: justify;
+}
+/* .about-content button{
+    
+} */
+
+/*========== End ==========*/
+
+/*========== Recipes Section ==========*/
+
+#recipes-section{
+    padding: 80px 0;
+    color: black;
+}
+.recipes-header{
+    text-align: center;
+}
+.recipes-header h2{
+    color: #292929;
+}
+.recipes-header p{
+    padding: 30px 400px 50px;
+}
+/*========== End ==========*/
+
+.cardBox{
+    overflow: hidden;
+    padding: 30px;
+    margin-bottom: 80px;
+}
+.recipes-card {
+    width: 350px;
+    box-shadow: rgb(0 0 0 / 11%) 0px 6px 30px 2px;
+    border-width: 15px 15px 32px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-radius: 24px;
+    float: left;
+}
+.first-card{
+    margin-left: 50px;
+}
+.middle-card{
+    margin: 0 100px;
+}
+.last-card{
+    margin-right: 50px;
+}
+.card-img img{
+    width: 350px;
+    margin: auto;
+    display: block;
+}
+.card-cntn{
+    padding: 25px 0 0 0;
+}
+.card-cntn h3 {
+    font-size: 26px;
+    font-family: 'Lobster Two';
+    letter-spacing: 1px;
+}
+.card-cntn p{
+    font-size: 14px;
+    margin-top: 14px;
+    line-height: 20px;
+}
+.counter-box{
+    width: 1350px;
+    margin: auto;
+}
+.main-box{
+    padding: 20px 30px;
+    overflow: hidden;
+    box-shadow: 0px 0px 30px 6px #0000001a;
+    border-radius: 20px;
+}
+.single-box {
+    width: 400px;
+    text-align: center;
+    padding: 40px 0;
+    float: left;
+}
+.single-box h3 {
+    font-family: 'Raleway';
+    font-size: 45px;
+    padding-bottom: 25px;
+}
+.single-box p {
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-left: 65px;
+}
