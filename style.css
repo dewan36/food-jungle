@@ -1,8 +1,14 @@
+/*=================================*/
+/* Switch width into 1905px for a better view of this site */
+/*=================================*/
+
 /*===== Fonts =====*/
 @import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap');
 /*===== End =====*/
+
+/*===== Reusable CSS =====*/
 *{
     margin: 0;
     padding: 0;
@@ -37,6 +43,7 @@ img{
     border-radius: 26px;
     letter-spacing: 1px;
 }
+/*===== End =====*/
 
 /*========== Hero Section ==========*/
 #hero-section {
@@ -87,6 +94,9 @@ img{
     text-transform: uppercase;
     letter-spacing: 0.2rem;
 }
+.menu-side .menu-area .menu-list li a:hover{
+    color: white;
+}
 .menu-side .menu-area .menu-list li .actv{
     color: white;
 }
@@ -135,7 +145,7 @@ img{
     color: #ff873b;
 }
 .hero-content p{
-    padding: 30px 80px 30px 32px;
+    padding: 30px 167px 30px 32px;
     font-size: 16px;
     letter-spacing: 0.1rem;
 }
@@ -185,17 +195,11 @@ img{
 }
 .about-content p{
     padding: 40px 0 70px;
-    margin-right: 90px;
-    text-align: justify;
+    margin-right: 120px;
 }
-/* .about-content button{
-    
-} */
-
 /*========== End ==========*/
 
 /*========== Recipes Section ==========*/
-
 #recipes-section{
     padding: 80px 0;
     color: black;
@@ -276,11 +280,9 @@ img{
     letter-spacing: 1px;
     padding-left: 65px;
 }
-
 /*========== End ==========*/
 
 /*========== Blog Section ==========*/
-
 #blog-section{
     background: #f5f5f5;
     padding: 70px 0;
@@ -356,9 +358,6 @@ img{
     height: 430px;
     float: left;
     color: wheat;
-}
-.contact-header{
-
 }
 .infoBoxs {
     width: 290px;
