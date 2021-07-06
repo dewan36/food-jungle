@@ -209,8 +209,6 @@ img{
 .recipes-header p{
     padding: 30px 400px 50px;
 }
-/*========== End ==========*/
-
 .cardBox{
     overflow: hidden;
     padding: 30px;
@@ -278,3 +276,69 @@ img{
     letter-spacing: 1px;
     padding-left: 65px;
 }
+
+/*========== End ==========*/
+
+/*========== Blog Section ==========*/
+
+#blog-section{
+    background: #f5f5f5;
+    padding: 70px 0;
+    color: black;
+}
+.blog-header{
+    text-align: center;
+}
+.blog-header h2{
+    color: #292929;
+    margin-top: 10px;
+}
+.blog-header p{
+    padding: 30px 400px 50px;
+}
+.blog-box{
+    overflow: hidden;
+}
+.singleb-box{
+    float: left;
+    width: 50%;
+}
+.singleb-box img{
+    width: 80%;
+    margin-left: 76px;
+}
+.singleb-box .blog-info {
+    text-align: center;
+    margin: 0 74px 0 74px;
+    background: white;
+    padding: 20px 26px 20px 26px;
+    margin-top: -8px;
+}
+.singleb-box .blog-info .date {
+    text-align: right;
+    display: block;
+    padding: 0px 0 8px;
+    color: #ff7b00;
+    font-weight: bold;
+}
+.singleb-box .blog-info h4{
+    font-size: 26px;
+    text-align: left;
+    padding-bottom: 22px;
+    font-family: 'Raleway';
+}
+.singleb-box .blog-info p{
+    text-align: left;
+    padding-left: 0;
+    font-size: 15px;
+    padding-bottom: 10px;
+    letter-spacing: 0px;
+    line-height: 18px;
+}
+.blog-btn {
+    display: block;
+    margin: 50px auto 0px;
+    box-shadow: rgb(0 0 0 / 16%) 3px 6px 11px 0px;
+}
+
+/*========== End ==========*/
